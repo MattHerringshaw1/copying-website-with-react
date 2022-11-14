@@ -1,0 +1,19 @@
+.featured-article {
+    background-color: gray;
+    display: flex;
+    margin-left: 4%;
+    margin-right: 4%;
+    flex-direction: column;
+    
+    align-self: center;
+    
+    
+}
+
+.featured-item {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}

@@ -1,0 +1,16 @@
+.menu {
+    background-color: rgb(74, 101, 196);
+    display: flex;
+    margin: 1%;
+    
+}
+
+.menu-item {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+

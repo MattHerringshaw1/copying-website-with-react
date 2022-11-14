@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from "react";
+import Menu from "./components/Menu";
+import Articles from "./components/Articles";
+import FeaturedArticle from "./components/FeaturedArticle";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  // constructor() {
+  //   super()
+  //   this.articles = [{}]
+    
+  // }
+
+  render() {
+    return (
+      <>
+        <Menu />
+        <FeaturedArticle />
+        <Articles />
+        
+      </>
+    )
+  }
+
 }
 
 export default App;
